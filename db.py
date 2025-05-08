@@ -1,9 +1,12 @@
 import sqlite3
 
+def Create_DB():
+    # Code to create a new sqlite database if not exists
+    pass
+
 def DB_Connection():
     # Code to establish a connection to the sqlite database
     Connection = sqlite3.connect('api_list.db')
-    Cursor = Connection.cursor()
     pass
 
 def DB_Create_Table():
